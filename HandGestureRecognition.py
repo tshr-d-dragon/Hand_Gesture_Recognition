@@ -5,10 +5,9 @@ import cv2
 import time
 import vlc
 import mediapipe as mp
-
-
 import argparse
 parser = argparse.ArgumentParser()
+
 color = ()
 parser.add_argument("-p", "--path", default='cv2/Video.avi', 
                     required = False, type = str, help='Give path of video file')
